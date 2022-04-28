@@ -1,0 +1,33 @@
+header {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    background-color:rgb(66, 64, 64);
+}
+main {
+    float: left;
+    width: 1000px;
+    height: 650px;
+    border:1px solid rgb(66, 64, 64);
+    /*border: 1px solid #f1f1f1;*/
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+aside {
+    float: right;
+    width:auto;
+    height: auto;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+aside .grid-right {
+    font-size: 70px;
+    text-align: center;
+    display: grid;
+    grid-gap: 5px;
+}
+aside .btn {
+    background-color:rgb(66, 64, 64);
+    color: white;
+}
